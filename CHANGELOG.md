@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+
+- The `kafka` input now supports multiple topics, topic partition balancing, and checkpointing.
+
+### Changed
+
+- The `kafka_balanced` input has now been deprecated as its functionality has been added to the `kafka` input.
+
 ## 3.32.0 - 2020-10-29
 
 ### Added
